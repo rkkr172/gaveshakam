@@ -1,1 +1,33 @@
-browser
+Architecture
+There are a lot of web browser available in the market. All of them interpret and display information on the screen however their capabilities and structure varies depending upon implementation. But the most basic component that all web browser must exhibit are listed below:
+• Controller/Dispatcher
+• Interpreter
+• Client Programs
+
+⇒ Controller works as a control unit in CPU. It takes input from the keyboard or mouse, interpret it and make other services to work on the basis of input it receives.
+⇒ Interpreter receives the information from the controller and execute the instruction line by line. Some interpreter are mandatory while some are optional For example, HTML interpreter program is mandatory and java interpreter is optional.
+⇒ Client Program describes the specific protocol that will be used to access a particular service. Following are the client programs tat are commonly used:
+• HTTP
+• SMTP
+• FTP
+• NNTP
+• POP
+
+
+Building a Web Browser
+======================
+{HTML,Java Script} => {Web Browser} => {Web Page Image}
+
+HTML - WEB PAGE BASICS
+JAVA SCRIPT - WEB PAGE COMPUTATION
+
+def myfirst_yoursecond(p,q):
+pindex = p.find(" ")
+qindex = q.find(" ")
+return p[:pindex] == q[qindex+1:]
+
+
+Reference Links:
+https://www.tutorialspoint.com/internet_technologies/web_browsers.htm
+https://stackoverflow.com/questions/598841/how-to-get-started-building-a-web-browser
+https://www.udacity.com/course/programming-languages--cs262
